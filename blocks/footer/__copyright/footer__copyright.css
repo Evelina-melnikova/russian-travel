@@ -1,7 +1,6 @@
 .footer__copyright {
     height: 14px;
     margin-top: 48px;
-    margin-bottom: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -18,7 +17,6 @@
         line-height: 16px;
         margin-left: 55px;
         font-size: 14px;
-        line-height: 16px;
     }
 }
 
