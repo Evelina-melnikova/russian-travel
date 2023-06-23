@@ -1,0 +1,35 @@
+.footer__copyright {
+    height: 14px;
+    margin-top: 48px;
+    margin-bottom: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .footer__copyright {
+        margin-top: 0;
+        line-height: 16px;
+        margin-left: 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .footer__copyright {
+        margin-left: 260px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer__copyright {
+        margin-left: 519px;
+    }
+}

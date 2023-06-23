@@ -1,0 +1,12 @@
+.header__lang-links {
+    margin-right: 0;
+    display: flex;
+    transition: 0.5s;
+
+}
+
+.header__lang-links:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+

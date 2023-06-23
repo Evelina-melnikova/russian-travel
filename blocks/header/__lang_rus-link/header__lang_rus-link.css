@@ -1,0 +1,43 @@
+.header__lang_rus-link {
+    width: 22px;
+    height: 20px;
+    text-align: right;
+    margin-right: 0;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: underline;
+    margin-top: 14px;
+    margin-left: 84px;
+}
+
+@media screen and (min-width:768px) {
+    .header__lang_rus-link {
+        margin-left: 467px;
+        margin-top: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: right;
+        text-decoration-line: underline;
+        width: 30px;
+        height: 28px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .header__lang_rus-link {
+        margin-left: 675px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .header__lang_rus-link {
+        margin-left: 931px;
+    }
+}
