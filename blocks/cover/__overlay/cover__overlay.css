@@ -2,6 +2,8 @@
     width: 320px;
     height: 200px;
     position: absolute;
+    
+    margin-left: 0;
 }
 
 @media screen and (min-width:768px) {
@@ -17,7 +19,12 @@
         height: 640px;
     }
 }
-
+@media screen and (min-width:1024px) {
+    .cover__overlay::before {
+        width: 100%;
+        height: 100%;
+    }
+}
 .cover__overlay::before {
     content: "";
     position: absolute;
@@ -26,23 +33,19 @@
     opacity: 0.3;
     background: #2A2C2F;
     transition: 1.5s;
+    background-size: cover;
 }
-.cover__overlay:hover::before {
-    opacity: 0.8;
-}
-@media screen and (min-width:1024px) {
-    .cover__overlay::before {
-        width: 1024px;
-        height: 100%;
-    }
-}
+
 
 @media screen and (min-width:1280px) {
     .cover__overlay::before {
         width: 1184px;
         height: 740px;
+        background-size: cover;
     }
 }
-
+.cover__overlay:hover::before {
+    opacity: 0.8;
+}
 
 

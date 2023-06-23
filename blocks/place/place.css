@@ -1,22 +1,28 @@
-.places{
+.place {
     width: 320px;
     box-sizing: content-box;
 }
 
 @media screen and (min-width:768px) {
-    .places{
+    .place {
         width: 768px;
+        display: grid;
+        grid-template-columns: 364px 352px;
     }
 }
 
 @media screen and (min-width:1024px) {
-    .places{
+    .place {
         width: 928px;
+        margin-left: 48px;
+        grid-template-columns: 440px 1fr;
     }
 }
 
 @media screen and (min-width:1280px) {
-    .places {
+    .place {
         width: 984px;
+        margin-left: 148px;
+        grid-template-columns: 460px 1fr;
     }
 }
