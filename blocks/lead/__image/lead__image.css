@@ -18,7 +18,7 @@
     .lead__image {
         width: 928px;
         height: 580px;
-        margin-left: 48px;
+        margin-left: auto;
         margin-right: auto;
     }
 }
@@ -28,6 +28,5 @@
         width: 984px;
         height: 615px;
         margin-top: 64px;
-        margin-left: 148px;
     }
 }

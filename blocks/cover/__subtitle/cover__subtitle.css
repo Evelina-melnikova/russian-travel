@@ -1,9 +1,10 @@
 .cover__subtitle {
-    margin-left: 16px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 16px;
     margin-bottom: 0;
-    width: 288px;
-    height: 48px;
+    max-width: 288px;
+    min-height: 48px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -16,13 +17,10 @@
 
 @media screen and (min-width:768px) {
     .cover__subtitle {
-        width: 360px;
-        height: 66px;
-        font-style: normal;
-        font-weight: 400;
+        max-width: 360px;
+        min-height: 66px;
         font-size: 18px;
         line-height: 22px;
-        margin-left: 204px;
         margin-top: 32px;
     }
 }
@@ -30,14 +28,5 @@
 @media screen and (min-width:1024px) {
     .cover__subtitle {
         max-width: 360px;
-        height: 66px;
-        margin-left: 332px;
-    }
-}
-
-@media screen and (min-width:1280px) {
-    .cover__subtitle {
-        margin-left: 412px;
-
-    }
+       }
 }

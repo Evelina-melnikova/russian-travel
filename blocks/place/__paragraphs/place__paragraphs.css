@@ -1,6 +1,5 @@
 .place__paragraphs {
     margin-top: 32px;
-    margin-bottom: 25px;
     gap: 16px;
     margin-left: 16px;
     margin-right: 16px;
@@ -14,8 +13,7 @@
         margin-left: 0;
         margin-right: 0;
         padding-left: 28px;
-        width: 100%;
-        padding-right: 24px;
+        max-width: 100%;
         gap: 25px;
     }
 }
@@ -23,9 +21,7 @@
 @media screen and (min-width:1024px) {
     .place__paragraphs {
         font-size: 18px;
-        width: 100%;
         padding-left: 32px;
-        padding-right: 0;
         gap: 27px;
         display: flex;
         flex-direction: column;
@@ -34,9 +30,7 @@
 
 @media screen and (min-width:1280px) {
     .place__paragraphs {
-        width: 484px;
+        max-width: 484px;
         padding-left: 40px;
-        display: flex;
-        flex-direction: column;
     }
 }

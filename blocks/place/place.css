@@ -1,11 +1,13 @@
 .place {
-    width: 320px;
+    max-width: 320px;
     box-sizing: content-box;
+    margin-top: 14px;
 }
 
 @media screen and (min-width:768px) {
     .place {
-        width: 768px;
+        max-width: 768px;
+        margin-top: 0;
         display: grid;
         grid-template-columns: 364px 352px;
     }
@@ -13,16 +15,16 @@
 
 @media screen and (min-width:1024px) {
     .place {
-        width: 928px;
-        margin-left: 48px;
+        max-width: 928px;
+        margin-left: auto;
+        margin-right: auto;
         grid-template-columns: 440px 1fr;
     }
 }
 
 @media screen and (min-width:1280px) {
     .place {
-        width: 984px;
-        margin-left: 148px;
+        max-width: 984px;
         grid-template-columns: 460px 1fr;
     }
 }

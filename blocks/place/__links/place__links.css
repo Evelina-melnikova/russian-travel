@@ -1,40 +1,25 @@
 .place__links {
     margin-left: 16px;
-    margin-top: 32px;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width:768px) {
     .place__links {
         margin-left: 28px;
-        margin-top: 73px;
-        margin-right: 24px;
-    }
-
-    .place__links:first-of-type {
-        margin-top: 134px;
     }
 }
 
 @media screen and (min-width:1024px) {
     .place__links {
         margin-left: 32px;
-        margin-top: 110px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
     }
 
-    .place__links:first-of-type {
-        margin-top: 198px;
-    }
 }
 
 @media screen and (min-width:1280px) {
     .place__links {
         margin-left: 40px;
-        margin-top: 110px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
     }
 }

@@ -2,6 +2,9 @@
     max-width: 320px;
     box-sizing: content-box;
     background: #2A2C2F;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inter', 'sans-serif';
 }
 
 @media screen and (min-width:768px) {
@@ -19,6 +22,5 @@
 @media screen and (min-width:1280px) {
     .page {
         max-width: 1280px;
-        box-sizing: content-box;
     }
 }
