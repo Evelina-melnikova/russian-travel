@@ -1,7 +1,6 @@
 .header {
     background-color: #2A2C2F;
     display: flex;
-    width: 100%;
     justify-content: space-between;
     max-width: 288px;
     box-sizing: content-box;
