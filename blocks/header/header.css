@@ -1,27 +1,23 @@
 .header {
     background-color: #2A2C2F;
     display: flex;
-    justify-content: space-between;
     max-width: 288px;
-    box-sizing: content-box;
-    margin-left: auto;
     margin-top: 16px;
     margin-right: auto;
-}
+    margin-left: auto;
+    }
 
 
 @media screen and (min-width:768px) {
     .header {
         max-width: 720px;
         margin-top: 28px;
-        margin-right: auto;
-        margin-left: auto;
     }
 }
 
 @media screen and (min-width:1024px) {
     .header {
-        max-width: 1024px;
+        max-width: 928px;
         margin-top: 28px;
         margin-left: 48px;
     }
@@ -29,7 +25,7 @@
 
 @media screen and (min-width:1280px) {
     .header {
-        max-width: 1280px;
+        max-width: 1184px;
         min-height: 52px;
     }
 }

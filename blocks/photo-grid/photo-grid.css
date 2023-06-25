@@ -2,7 +2,8 @@
     max-width: 288px;
     min-height: 2724px;
     margin-top: 64px;
-    margin-left: 16px;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 0;
     display: grid;
     gap: 12px;
@@ -13,8 +14,6 @@
         max-width: 720px;
         min-height: 1664px;
         margin-top: 88px;
-        margin-left: 24px;
-        margin-right: 24px;
         display: grid;
         grid-template-columns: 352px 352px;
         grid-template-rows: 264px 264px;
@@ -30,7 +29,7 @@
         grid-template-columns: 300px 300px 300px;
         grid-template-rows: 225px;
         gap: 14px;
-        margin-left: 48px;
+
     }
 }
 
@@ -38,9 +37,8 @@
     .photo-grid {
         max-width: 1184px;
         min-height: 671px;
-        grid-template-columns: 284px 284px 284px 284px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 213px 213px;
-        gap: 16px;
 
     }
 }

@@ -7,30 +7,11 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #FFFFFF;
-    max-width: 158px;
+    max-width: 100%;
     min-height: 14px;
-    margin-left: 16px;
-    margin-right: 46px;
     margin-bottom: 0;
     margin-top: 8px;
     display: flex;
 }
 
-@media screen and (min-width:768px) {
-    .lead__caption {
-        min-height: 14px;
-        margin-left: 24px;
-    }
-}
 
-@media screen and (min-width:1024px) {
-    .lead__caption {
-        margin-left: 48px;
-    }
-}
-
-@media screen and (min-width:1280px) {
-    .lead__caption {
-        margin-left: 148px;
-    }
-}

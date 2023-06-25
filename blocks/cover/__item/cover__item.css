@@ -8,8 +8,8 @@
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
-    top: auto;
-    left: auto;
+    margin-top: auto;
+    margin-left: auto;
 }
 
 .cover__item::before {
