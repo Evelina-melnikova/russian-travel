@@ -1,7 +1,21 @@
-
 .content {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    min-width: 320px;
 }
 
+@media screen and (min-width:768px) {
+    .content {
+        min-width: 768px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .content {
+        min-width: 1024px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .content {
+        min-width: 1280px;
+    }
+}

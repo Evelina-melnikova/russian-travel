@@ -1,7 +1,9 @@
 .header {
     background-color: #2A2C2F;
     display: flex;
+    justify-content: space-between;
     max-width: 288px;
+    min-height: 42px;
     margin-top: 16px;
     margin-right: auto;
     margin-left: auto;
@@ -19,7 +21,6 @@
     .header {
         max-width: 928px;
         margin-top: 28px;
-        margin-left: 48px;
     }
 }
 

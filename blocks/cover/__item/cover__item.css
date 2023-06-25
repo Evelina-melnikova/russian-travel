@@ -1,5 +1,5 @@
 .cover__item {
-    max-width: 320px;
+    width: 100%;
     min-height: 200px;
     z-index: 1;
     display: flex;
@@ -7,9 +7,8 @@
     text-decoration: none;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
-    background-position: center;
-    margin-top: auto;
-    margin-left: auto;
+    margin-top: 66px;
+
 }
 
 .cover__item::before {
@@ -37,6 +36,7 @@
         max-width: 768px;
         min-height: 480px;
     }
+
     .cover__item:hover::before {
         opacity: 0.8;
     }
@@ -59,7 +59,8 @@
         max-width: 1184px;
         min-height: 740px;
     }
-/* если убираю размеры линзы, ее размеры переходят и на блок футер*/
+
+    /* если убираю размеры линзы, ее размеры переходят и на блок футер*/
     .cover__item::before {
         max-width: 1184px;
         min-height: 740px;

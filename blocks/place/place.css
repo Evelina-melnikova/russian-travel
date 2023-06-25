@@ -2,12 +2,14 @@
     max-width: 320px;
     box-sizing: content-box;
     margin-top: 14px;
+    grid-template-columns: 1fr ;
+  
 
 }
 
 @media screen and (min-width:768px) {
     .place {
-        max-width: 768px;
+        max-width: 720px;
         margin-top: 0;
         display: grid;
         grid-template-columns: 364px 352px;
