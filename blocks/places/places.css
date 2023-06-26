@@ -1,7 +1,7 @@
 .places{
     max-width: 320px;
     box-sizing: content-box;
-    margin-top: 64px;
+    margin-top: 14px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -13,6 +13,8 @@
     .places{
         max-width: 768px;
         margin-top: 88px;
+        gap: 72px;
+
     }
 }
 
@@ -20,6 +22,7 @@
     .places{
         max-width: 928px;
         margin-top: 92px;
+        gap: 80px;
     }
 }
 
