@@ -1,8 +1,4 @@
 
-.header__links:hover {
-    opacity: 0.8;
-    transition: 0.5s;
-}
 
 .header__links {
     text-align: right;

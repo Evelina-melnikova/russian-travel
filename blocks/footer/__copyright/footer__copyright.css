@@ -1,12 +1,11 @@
 .footer__copyright {
-    max-width: 186px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
     color: #FFFFFF;
     margin-bottom: 0;
-    margin-top: 16px;
+    margin-top: 48px;
 
 }
 
@@ -15,6 +14,7 @@
         line-height: 16px;
         margin-left: auto;
         margin-top: 0;
+
     }
 }
 

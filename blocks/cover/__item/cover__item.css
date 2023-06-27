@@ -9,9 +9,8 @@
     background-size: cover;
     margin-top: 66px;
     position: relative;
-    top: 0;
-    left: 0;
     justify-content: center;
+    background-position: center;
 }
 
 .cover__item::before {
@@ -21,8 +20,11 @@
     height: 100%;
     opacity: 0.3;
     background: #2A2C2F;
-    transition-property: 1.5s;
+    transition-property: all;
+    transition: 1.5s; 
     background-size: cover;
+    top: 0;
+    left: 0;
 }
 
 .cover__item:hover::before {
@@ -36,19 +38,11 @@
         min-height: 480px;
     }
 
-    .cover__item::before {
-        max-width: 768px;
-        min-height: 480px;
-    }
+
 }
 
 @media screen and (min-width:1024px) {
     .cover__item {
-        max-width: 1024px;
-        min-height: 640px;
-    }
-
-    .cover__item::before {
         max-width: 1024px;
         min-height: 640px;
     }
@@ -60,9 +54,4 @@
         min-height: 740px;
     }
 
-    /* если убираю размеры линзы, ее размеры переходят и на блок футер*/
-    .cover__item::before {
-        max-width: 1184px;
-        min-height: 740px;
-    }
 }
