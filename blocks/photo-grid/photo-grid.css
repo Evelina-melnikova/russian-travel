@@ -12,6 +12,7 @@
     .photo-grid {
         max-width: 720px;
         margin-top: 88px;
+        display: grid;
         grid-template-columns: 352px 352px;
         grid-template-rows: 264px 264px;
         gap: 16px;
